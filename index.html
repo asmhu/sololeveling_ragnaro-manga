@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Solo Leveling: Ragnarok Manga Online | Free Chapters</title>
+    <meta name="description" content="Read Solo Leveling: Ragnarok Manga online for free. Explore all chapters with high-quality scans and translations. Updated regularly.">
+    <meta name="keywords" content="Solo Leveling Ragnarok, Read Solo Leveling Manga, Solo Leveling Chapters, Free Manga Online, Solo Leveling Latest Chapter, Action Fantasy Manga, Manhwa, Webtoon, Solo Leveling Sequel">
+    <meta name="author" content="MangaReader">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0d0d0d;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Anime-styled card */
+        .manga-card {
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(255, 140, 0, 0.3);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .manga-card img {
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+        }
+
+        .details {
+            flex: 1;
+            text-align: left;
+        }
+
+        h1, h2 {
+            color: #ff9800;
+        }
+
+        .synopsis {
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            text-align: justify;
+            font-size: 14px;
+        }
+
+        /* Chapter buttons */
+        .chapter-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .chapter-grid button {
+            background-color: #222;
+            color: white;
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .chapter-grid button:hover {
+            transform: scale(1.1);
+            background-color: #ff9800;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Solo Leveling: Ragnarok Manga</h1>
+        </header>
+
+        <!-- Anime-styled Card -->
+        <div class="manga-card">
+            <img src="cover.jpg" alt="Solo Leveling Ragnarok Manga Cover">
+            <div class="details">
+                <h2>Solo Leveling: Ragnarok</h2>
+                <p><strong>Genre:</strong> Action, Fantasy, System, Adventure</p>
+                <p><strong>Status:</strong> Ongoing</p>
+                <p><strong>Author:</strong> Daul</p>
+                <p><strong>Artist:</strong> Redice Studio</p>
+                <p><strong>Release:</strong> 2024</p>
+                <p class="synopsis">
+                    After witnessing the death of one of their own, the Absolute Ones—creators of 
+                    the many universes—frantically seek to fill the power void left by their fallen 
+                    brother. With Earth's existence in danger once more as gates spill monsters 
+                    into our dimension, Sung Suho must answer the call and conquer the shadow dungeon 
+                    while uncovering his father's legendary legacy.
+                </p>
+            </div>
+        </div>
+
+        <section class="chapters">
+            <h2>All Manga Chapters</h2>
+            <div class="chapter-grid" id="chapterGrid"></div>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const chapterGrid = document.getElementById("chapterGrid");
+            for (let i = 1; i <= 40; i++) {
+                const formattedNumber = i.toString().padStart(2, "0"); // Ensures 01, 02, ..., 09, 10, ..., 40
+                const button = document.createElement("button");
+                button.textContent = `Chapter ${i}`;
+                button.onclick = function() {
+                    window.open(`chapters/Chapter ${formattedNumber}.pdf`, "_blank");
+                };
+                chapterGrid.appendChild(button);
+            }
+        });
+    </script>
+</body>
+</html>
